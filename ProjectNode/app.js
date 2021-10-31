@@ -21,7 +21,6 @@ app.use('/',(req, res, next) => {
 });
 
 
-<<<<<<< HEAD
 app.use('/',(req, res, next) => {
     console.log('In the middleware!');
     res.send('<h1> the Add prodcut</h1>');
@@ -45,9 +44,6 @@ app.use('/',(req, res, next) => {
 
 
 
-=======
-
->>>>>>> features/login
 const server = http.createServer(app);
 
 server.listen(3000);
